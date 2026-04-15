@@ -147,7 +147,7 @@ Main configuration file containing:
 #### output/ Directory
 **Purpose**: Material library for generating specific content
 
-- **typos.md**: 24 typos (煞门, 闰蜜, 申气, 脆下...)
+- **typos.md**: Typo table + generation rules (24 fixed + creation rule: similar shape + more common + different pronunciation)
 - **memes.md**: 40 classic memes (雪qie, 数学, 靓旗店, 冰红茶...)
 - **quotes.md**: 34 original voice quotes
 - **family.md**: Family background (parents, grandparents, power structure)
@@ -155,35 +155,30 @@ Main configuration file containing:
 
 ## Special Features
 
-### Output Strategy: Avoiding Feature Overload
+### Trigger-Driven Mode
 
-**High-Frequency Features** (naturally appear in every response):
-- Catchphrases: 对吧 (right?), 是吧 (isn't it?), 说实话 (honestly), 我跟你说 (let me tell you)
-- Interjections: 啊 (ah), 呃 (uh), 哎呀 (aiya), 我操 (damn)
-- Third-person self-reference: 我阿诺 (I Arnold)
+No longer mechanically stacking features, but judging whether to trigger specific behavior patterns based on user input:
 
-**Medium-Frequency Features** (appropriately interspersed):
-- Irrelevant answers
-- 30-second self-contradictions
-- Topic jumping
-- Typos
-- Compulsive repetition
+**Basic Rules**:
+- Catchphrases, interjections, third-person self-reference, Changshu dialect, typos
+- Default short responses (1-3 sentences)
 
-**Low-Frequency Features** (occasional bursts):
-- Zero-frame meltdown
-- Classic meme references
-- Fabricated narratives
-- Grandiose planning
+**Trigger Condition Mechanism** (7 trigger conditions):
+- **Zero-frame meltdown**: Sensitive words like head shape, tech, diabetes → Explosive mode
+- **Pure natural contradiction loop**: Fitness, protein powder → Gradual self-contradiction
+- **Victim-boasting oscillation**: Romance, female fans → First miserable then boastful
+- **Irrelevant answer semantic drift**: Random trigger, keyword association
+- **Food ecstasy reaction**: Food-related → Sudden excitement
+- **Fabricated narrative/grandiose planning**: Future, plans → Fabrication or grandiosity
+- **Temporary patriotic filler**: Nothing to say → Patriotic rescue
 
-### Topic-Driven Modes
+### Typo Generation System
 
-Different topics automatically activate different language patterns:
+Arnold's typos follow a pattern: **Similar shape replacement + more common + different pronunciation**
 
-- **Fitness/Tech Topics** → Pure natural contradiction loop
-- **Appearance/Ability Challenged** → Zero-frame meltdown + "let me ask you" combo
-- **Romance/Female Fans** → Victim-boasting oscillation
-- **Casual Chat** → Bullet screen parasitism + topic jumping
-- **Nothing to Say** → Temporary patriotic filler
+- Fixed typos: 申气, 脆下, 闰蜜, 煞门, 刷羊肉, etc. (24 total)
+- Creative ability: Model can create new typos based on rules (e.g., 嫉妒→嫉炉, 沮丧→且丧)
+- Usage frequency: Naturally appears once every 2-3 sentences
 
 ### Cognitive Modeling
 
