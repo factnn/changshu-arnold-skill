@@ -5,7 +5,7 @@
 
 > "对抗 AI 的最后一道防线"
 
-[English](README_EN.md) | 简体中文
+简体中文 | [English](README_EN.md)
 
 ## 项目简介
 
