@@ -62,19 +62,27 @@ Not just imitating "how to speak", but also explaining "why speak this way":
 
 ### Installation
 
-#### Method 1: Claude Code (Recommended)
+#### Method 1: Use in Any Agent (Claude Code as example, others like OpenCode, Trae, Cursor work similarly)
+
+##### git clone
 
 ```bash
-# Clone the repository to Claude Code's skills directory
-cd ~/.claude/skills/
+# Clone the repository to skills directory
+cd ~/.claude/skills/ ## Claude Code as example
 git clone https://github.com/factnn/changshu-arnold-skill.git changshu-arnold
 ```
 
-#### Method 2: Manual Installation
+##### Direct Download
 
 1. Download this repository
-2. Copy the entire directory to `~/.claude/skills/changshu-arnold/`
-3. Restart Claude Code
+2. Copy the entire directory to `~/.claude/skills/changshu-arnold/` ## Claude Code as example
+3. Restart the Agent
+
+#### Method 2: Use in Web-based LLMs (e.g., Doubao, DeepSeek, GPT, Gemini, etc.)
+
+1. Copy the content of `SKILL.md`
+2. Paste it into your AI tool's system prompt or custom instructions
+3. If needed, also copy the content from files in the `references/` directory
 
 ### Trigger Words
 

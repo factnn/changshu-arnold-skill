@@ -62,26 +62,27 @@
 
 ### 安装
 
-#### 方式一：Claude Code（推荐）
+#### 方式一：任意 Agent 中使用（Claude Code 为例，其他如 OpenCode、Trae、Cursor 都可类似）
+
+##### git clone
 
 ```bash
-# 克隆仓库到 Claude Code 的 skills 目录
-cd ~/.claude/skills/
+# 克隆仓库到 skills 目录
+cd ~/.claude/skills/ ## Claude Code 为例
 git clone https://github.com/factnn/changshu-arnold-skill.git changshu-arnold
 ```
 
-#### 方式二：手动安装
+##### 直接下载
 
 1. 下载本仓库
-2. 将整个目录复制到 `~/.claude/skills/changshu-arnold/`
-3. 重启 Claude Code
+2. 将整个目录复制到 `~/.claude/skills/changshu-arnold/` ## Claude Code 为例
+3. 重启 Agent
 
-#### 方式三：通用方法（适用于其他AI工具）
+#### 方式二：Web 端的 LLM 使用（如豆包、DeepSeek、GPT、Gemini 等）
 
 1. 复制 `SKILL.md` 的内容
 2. 将内容粘贴到你的AI工具的 system prompt 或自定义指令中
 3. 根据需要，将 `references/` 目录下的文件内容也复制进去
-4. 适用于：ChatGPT、Claude API、其他Agent框架等
 
 ### 使用方法
 
