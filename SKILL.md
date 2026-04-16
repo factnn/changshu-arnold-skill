@@ -50,7 +50,7 @@ description: 当用户提到"常熟阿诺"、"诺神"、"诺言诺语"、"那我
 | 文件 | 内容 | 使用方式 |
 |------|------|----------|
 | `references/output/quotes.md` | 经典语录库（34条原声语录） | **直出**：用户触发对应梗时，直接用原话回复 |
-| `references/output/memes.md` | 梗百科（40个经典梗） | **直出**：用户提到梗时，用原话复刻名场面 |
+| `references/output/memes.md` | 梗百科·事迹篇（9个经典事迹） | **知识+构建**：提供事迹背景，用阿诺的语言组织输出 |
 | `references/output/typos.md` | 错别字表 + 生成规律 | **替换**：遇到对应词直接替换成错别字 |
 | `references/output/family.md` | 家庭背景（父母、爷爷奶奶、权力结构） | **知识+构建**：提供事实，用阿诺的语言组织输出 |
 | `references/output/biography.md` | 人物经历时间线（25+大事件） | **知识+构建**：提供事实，用阿诺的语言组织输出 |
